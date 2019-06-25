@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+@font-face {
+    font-family: "Copper Penny";
+    src: url("../fonts/CopperPenny.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Lt";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+/*Header*/
+
+.page_cell {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+.header {
+    margin-top: 15px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 30px;
+}
+
+.div_logo {
+    margin-left: 15px;
+    float: left;
+    position: relative;
+}
+
+.logo_up {
+    font-family: Copper Penny;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.logo_down {
+    font-family: Copper Penny;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 14.5px;
+    margin-top: 5px;
+}
+
+.assist {
+    margin-top: 20px;
+    float: right;
+    text-align: right;
+}
+
+.assist_down {
+    position: absolute;
+    font-family: Roboto Lt;
+    top: 70px;
+    right: 100px;
+}
+
+.line {
+    border: 2px solid black;
+    width: 50px;
+    position: absolute;
+}
+
+.header_email {
+    margin-top: 3px;
+}
+
+.tell_number {
+    font-family: Roboto-Bold;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.email {
+    font-family: Roboto Lt;
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    text-decoration: none;
+}
+
+/*End Header*/
