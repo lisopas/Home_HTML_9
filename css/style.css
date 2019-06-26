@@ -101,3 +101,69 @@
 }
 
 /*End Header*/
+
+/*Navigation*/
+
+.nav_menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: #000;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nav_item:hover {
+    color: #f44336;
+}
+
+.navigation {
+    padding: 25px;
+}
+
+/*End Navigation*/
+
+/*Slider*/
+
+.slider_item {
+    background-size: cover;
+    padding-top: 40%;
+}
+
+.owl-dots {
+    width: 88px;
+    border: transparent;
+    margin: auto;
+    position: absolute;
+    bottom: 75px;
+    left: 900px;
+
+
+}
+
+.slider_button, .owl-carousel button.owl-dot {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 6.5px;
+    display: inline-block;
+    outline: none;
+}
+
+.owl-carousel button.owl-dot.active {
+    border: 1px solid #000;
+    background: #000;
+}
+
+
+
+
+
