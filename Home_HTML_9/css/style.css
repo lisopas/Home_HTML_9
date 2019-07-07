@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+@font-face {
+    font-family: "Copper Penny";
+    src: url("../fonts/CopperPenny.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Lt";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+/*Header*/
+
+.page_cell {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+.header {
+    margin-top: 15px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 30px;
+}
+
+.div_logo {
+    margin-left: 15px;
+    float: left;
+    position: relative;
+}
+
+.logo_up {
+    font-family: Copper Penny;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.logo_down {
+    font-family: Copper Penny;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 14.5px;
+    margin-top: 5px;
+}
+
+.assist {
+    margin-top: 20px;
+    float: right;
+    text-align: right;
+}
+
+.assist_down {
+    position: absolute;
+    font-family: Roboto Lt;
+    top: 70px;
+    right: 100px;
+}
+
+.line {
+    border: 2px solid black;
+    width: 50px;
+    position: absolute;
+}
+
+.header_email {
+    margin-top: 3px;
+}
+
+.tell_number {
+    font-family: Roboto-Bold;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.email {
+    font-family: Roboto Lt;
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+    text-decoration: none;
+}
+
+/*End Header*/
+
+/*Navigation*/
+
+.nav_menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: #000;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nav_item:hover {
+    color: #f44336;
+}
+
+.navigation {
+    padding: 25px;
+}
+
+/*End Navigation*/
+
+/*Slider*/
+
+.slider_item {
+    background-size: cover;
+    padding-top: 40%;
+}
+
+.owl-dots {
+    width: 88px;
+    border: transparent;
+    margin: auto;
+    position: absolute;
+    bottom: 75px;
+    left: 860px;
+
+
+}
+
+.slider_button, .owl-carousel button.owl-dot {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 6.5px;
+    display: inline-block;
+    outline: none;
+}
+
+.owl-carousel button.owl-dot.active {
+    border: 1px solid #000;
+    background: #000;
+}
+
+/*End Slider*/
+
+/*About*/
+
+.zaglavie {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Roboto Lt', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.grid_item {
+    float: left;
+    width: 49.15%;
+    position: relative;
+    margin: 0 15px 15px 0;
+}
+
+.grid_item:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+.grid_wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.grid_wrap:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.grid_picture {
+    display: block;
+    max-width: 100%;
+}
+
+.grid_link {
+    font-family: 'Roboto Lt', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+.grid_link:hover {
+    color: #f44336;
+}
+
+.grid_text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
