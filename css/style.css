@@ -142,7 +142,7 @@
     margin: auto;
     position: absolute;
     bottom: 75px;
-    left: 900px;
+    left: 860px;
 
 
 }
@@ -163,7 +163,65 @@
     background: #000;
 }
 
+/*End Slider*/
 
+/*About*/
 
+.zaglavie {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
 
+.text {
+    font-family: 'Roboto Lt', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
 
+.grid_item {
+    float: left;
+    width: 49.15%;
+    position: relative;
+    margin: 0 15px 15px 0;
+}
+
+.grid_item:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+.grid_wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.grid_wrap:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.grid_picture {
+    display: block;
+    max-width: 100%;
+}
+
+.grid_link {
+    font-family: 'Roboto Lt', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+.grid_link:hover {
+    color: #f44336;
+}
+
+.grid_text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
